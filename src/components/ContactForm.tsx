@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { Label } from "./ui/label";
-import { Input, Textarea } from "./ui/input";
+import { Input } from "./ui/input";
+import { Textarea } from "./ui/textarea";
 import { cn } from "@/utils/cn";
-import { IconBrandGithub, IconBrandGoogle, IconBrandOnlyfans } from "@tabler/icons-react";
 
 export default function ContactForm() {
 	const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
