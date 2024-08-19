@@ -396,8 +396,8 @@ export function Contact() {
 	];
 
 	return (
-		<div className="flex flex-row items-center justify-center h-screen dark:bg-[#18181b] bg-white relative w-full">
-			<div className="max-w-full mx-auto w-full relative overflow-hidden h-2/3 px-4">
+		<div className="flex flex-row items-center justify-center h-screen pt-24 dark:bg-[#18181b] bg-white relative w-full">
+			<div className="max-w-full mx-auto w-full relative overflow-hidden h-full px-4">
 				<motion.div
 					initial={{
 						opacity: 0,
@@ -416,9 +416,8 @@ export function Contact() {
 						Feel free to share your suggestions and feedback here. We&apos;ll surely try our level best to improve your experience. 
 					</p>
 				</motion.div>
-				<div className="flex h-full w-full flex-row items-center justify-evenly ">
-
-                    <div className="flex w-1/3 items-center justify-center">
+				<div className="flex h-full w-full flex-row items-center justify-evenly pb-20">
+                    <div className="flex w-1/3 h-full items-center justify-center">
 					<ContactForm />
                     </div>
 					<div className="relative flex items-center justify-center w-1/3 h-full">
