@@ -411,7 +411,7 @@ export function Contact() {
 						duration: 1,
 					}}
 					className="div">
-					<h1 className="text-center text-7xl font-bold text-black dark:text-white font-[pristina]">Contact Us</h1>
+					<h1 className="text-center text-7xl font-bold text-black dark:text-white font-pristina">Contact Us</h1>
 					<p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
 						Feel free to share your suggestions and feedback here. We&apos;ll surely try our level best to improve your experience. 
 					</p>

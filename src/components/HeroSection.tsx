@@ -18,7 +18,7 @@ export default function HeroSection() {
 				className="relative flex flex-col gap-4 items-center justify-center px-4">
 				<div className="w-full rounded-md flex flex-col items-center justify-center relative overflow-hidden mx-auto py-10 md:p-0">
 					<div className="p-4 mt-20 relative z-10 w-full flex flex-col items-center text-center gap-10">
-						<h1 className="text-9xl font-extrabold bg-gradient-to-br from-slate-50 to-slate-500 bg-clip-text text-transparent font-[caveat]">ONYX Labs.</h1>
+						<h1 className="text-9xl font-extrabold bg-gradient-to-br from-slate-50 to-slate-500 bg-clip-text text-transparent font-caveat">ONYX Labs.</h1>
 						<h1 className="text-7xl mt-20 md:mt-0 text-transparent bg-clip-text bg-gradient-to-b font-bold from-neutral-50 to-neutral-400 p-4">Master the Art of Development</h1>
 						<p className="w-2/3 font-semibold text-base md:text-lg text-neutral-400 max-w-3xl mx-auto">
 							Dive into our comprehensive <i className="font-mono text-neutral-200">Video Editing, Fullstack Development & Graphic Designing courses</i> and transform your career journey today.

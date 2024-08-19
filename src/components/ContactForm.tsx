@@ -29,7 +29,7 @@ export default function ContactForm() {
 				</LabelInputContainer>
 				<LabelInputContainer className="mb-4">
 					<Label htmlFor="message">Message</Label>
-					<Textarea id="message" placeholder="Message" />
+					<Textarea id="message" placeholder="Message"/>
 				</LabelInputContainer>
 
 				<button
