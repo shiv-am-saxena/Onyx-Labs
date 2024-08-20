@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import ContactForm from "./ContactForm";
 
-const World = dynamic(() => import("./ui/globe").then((m) => m.World), {
+const World = dynamic(() => import("../ui/globe").then((m) => m.World), {
 	ssr: false,
 });
 

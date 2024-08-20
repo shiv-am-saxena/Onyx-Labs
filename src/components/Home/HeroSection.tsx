@@ -3,7 +3,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "@/components/ui/aurora-background";
-import { Button } from "./ui/moving-borders";
+import { Button } from "../ui/moving-borders";
 export default function HeroSection() {
 	return (
 		<AuroraBackground>

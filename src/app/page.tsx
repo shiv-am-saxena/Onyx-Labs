@@ -1,9 +1,8 @@
-import FeaturedCourses from "@/components/FeaturedCourses";
-import HeroSection from "@/components/HeroSection";
+import FeaturedCourses from "@/components/Home/FeaturedCourses";
+import HeroSection from "@/components/Home/HeroSection";
 import React from "react";
-import Testimonials from "@/components/Testimonials";
-import { Contact } from "@/components/Contact";
-import ContactForm from "@/components/ContactForm";
+import Testimonials from "@/components/Home/Testimonials";
+import { Contact } from "@/components/Home/Contact";
 function page() {
 	return (
 		<main className="min-h-screen bg-black antialiased">

@@ -1,14 +1,14 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 export default function Testimonials() {
 	return (
 		<div className="h-full py-10 w-full relative flex flex-col items-center justify-center bg-[#18181b]">
             <h1 className="text-7xl font-pristina">Testimonials</h1>
-			<div className="h-[40rem] rounded-md flex flex-col antialiased dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-				<InfiniteMovingCards items={testimonials} direction="left" speed="slow" />
+			<div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
+				<InfiniteMovingCards items={testimonials} direction="left" speed="normal" />
 			</div>
 		</div>
 	);

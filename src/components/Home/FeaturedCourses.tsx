@@ -1,8 +1,8 @@
 'use client';
 import courseList from "@/data/courses.json";
 import Link from "next/link";
-import { HoverBorderGradient } from "./ui/hover-border-gradient";
-import HoverEffect from "./ui/card-hover-effect";
+import { HoverBorderGradient } from "../ui/hover-border-gradient";
+import HoverEffect from "../ui/card-hover-effect";
 
 interface Course {
 	id: number | string;
